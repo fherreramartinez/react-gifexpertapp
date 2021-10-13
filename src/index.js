@@ -4,9 +4,11 @@ import { GifExpertApp } from './GifExpertApp';
 import './index.css';
 
 
+const categories = ['One Punch'];
 
 ReactDOM.render(
-    <GifExpertApp /> ,
+    
+    <GifExpertApp defaultCategories = { categories } /> ,
   document.getElementById('root')
 );
 
